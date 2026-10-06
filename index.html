@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Intercambio de Regalos 2026 🎁</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+    <div class="snow">❄️ ✨ ❄️ ✨ ❄️</div>
+
+    <h1>🎄 Intercambio de Regalos 🎁</h1>
+
+    <p>Ideas de regalos para nuestro intercambio</p>
+
+    <div class="lights">
+        🎄 ✨ 🎁 ✨ 🎄
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="panel">
+
+        <h2>👥 Participantes</h2>
+
+        <div class="add-person">
+
+            <input
+                type="text"
+                id="participantName"
+                placeholder="Escribe el nombre..."
+            >
+
+            <button id="addParticipant">
+                + Agregar participante
+            </button>
+
+        </div>
+
+        <div id="participantsList"></div>
+
+    </section>
+
+
+    <section class="panel">
+
+        <h2>🎁 Agregar un regalo</h2>
+
+        <select id="participantSelect">
+
+            <option value="">
+                Selecciona una persona
+            </option>
+
+        </select>
+
+
+        <div id="giftForm" class="hidden">
+
+            <input
+                type="text"
+                id="giftName"
+                placeholder="¿Qué regalo quieres?"
+            >
+
+            <input
+                type="url"
+                id="giftLink"
+                placeholder="Pega aquí el enlace del producto"
+            >
+
+            <input
+                type="number"
+                id="giftPrice"
+                placeholder="Precio aproximado (opcional)"
+            >
+
+            <input
+                type="url"
+                id="giftImage"
+                placeholder="Enlace de una imagen (opcional)"
+            >
+
+            <button id="addGift">
+                🎁 Agregar a mi lista
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <section class="panel">
+
+        <h2>🎅 Listas de deseos</h2>
+
+        <div id="giftsContainer">
+
+            <p class="empty">
+                Todavía no hay regalos agregados.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>🎄 Intercambio de Regalos 2026 🎄</p>
+
+    <small>
+        ¡Que todos reciban algo que les guste! ❤️
+    </small>
+
+</footer>
+
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
