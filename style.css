@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f5ef;
+    color: #333;
+    min-height: 100vh;
+}
+
+
+/* =========================
+   ENCABEZADO
+========================= */
+
+.hero {
+    background: linear-gradient(135deg, #7d1723, #a92332, #64101a);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero h1 {
+    font-size: 34px;
+    margin: 18px 0 10px;
+}
+
+.hero p {
+    font-size: 17px;
+    opacity: 0.95;
+}
+
+.snow {
+    font-size: 24px;
+    letter-spacing: 8px;
+}
+
+.lights {
+    margin-top: 20px;
+    font-size: 24px;
+    letter-spacing:
+    letter-spacing:
