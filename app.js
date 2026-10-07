@@ -14,15 +14,18 @@ import {
 /* =========================================
    CONFIGURACIÓN DE FIREBASE
    ========================================= */
-
 const firebaseConfig = {
-  apiKey: "AQUI_TU_API_KEY",
-  authDomain: "AQUI_TU_AUTH_DOMAIN",
-  projectId: "AQUI_TU_PROJECT_ID",
-  storageBucket: "AQUI_TU_STORAGE_BUCKET",
-  messagingSenderId: "AQUI_TU_MESSAGING_SENDER_ID",
-  appId: "AQUI_TU_APP_ID"
+  apiKey: "AIzaSyAmDszGH_e3D6d74VG7qKtDgz6jYEALbAg",
+  authDomain: "intercambio-de-navidad-2026b.firebaseapp.com",
+  projectId: "intercambio-de-navidad-2026b",
+  storageBucket: "intercambio-de-navidad-2026b.firebasestorage.app",
+  messagingSenderId: "769568050642",
+  appId: "1:769568050642:web:ccd899ec36940ebf8a4c0b",
+  measurementId: "G-23WS6GLGF6"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
